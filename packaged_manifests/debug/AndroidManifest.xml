@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.partyplanner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+
+    <!-- permission -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <permission
+        android:name="com.example.partyplanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.partyplanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.PartyPlanner" >
+
+        <!-- API key for Google Maps-based APIs -->
+
+        <receiver
+            android:name="com.example.partyplanner.BatteryReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name="com.example.partyplanner.pfReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name="com.example.partyplanner.pfService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.example.partyplanner.NotificationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.example.partyplanner.AirplaneReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.partyplanner.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.partyplanner.Planner"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.Budget"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.Checklist"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.Partylist"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.DeleteWindow"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.ScheduleCheck"
+            android:exported="false" />
+        <activity
+            android:name="com.example.partyplanner.PartyFood"
+            android:exported="false" />
+        <activity android:name="com.example.partyplanner.SingleItem" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.partyplanner.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
