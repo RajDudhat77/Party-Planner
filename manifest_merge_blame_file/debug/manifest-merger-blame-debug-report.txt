@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.partyplanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml
+10
+11    <!-- permission -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.READ_CALENDAR" />
+16-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:10:5-72
+16-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:10:22-69
+17    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+17-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:11:5-73
+17-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:11:22-70
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:14:5-81
+19-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:14:22-78
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+22        android:name="com.example.partyplanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.example.partyplanner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:16:5-89:19
+28        android:allowBackup="true"
+28-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:17:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.9.0] C:\Users\yujun\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:18:9-65
+31        android:debuggable="true"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:19:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:20:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:21:9-41
+35        android:supportsRtl="true"
+35-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:22:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.PartyPlanner" >
+37-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:23:9-50
+38
+39        <!-- API key for Google Maps-based APIs -->
+40
+41        <receiver
+41-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:30:9-33:48
+42            android:name="com.example.partyplanner.BatteryReceiver"
+42-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:31:13-44
+43            android:enabled="true"
+43-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:32:13-35
+44            android:exported="true" />
+44-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:33:13-36
+45        <receiver
+45-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:34:9-37:39
+46            android:name="com.example.partyplanner.pfReceiver"
+46-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:35:13-39
+47            android:enabled="true"
+47-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:36:13-35
+48            android:exported="true" />
+48-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:37:13-36
+49
+50        <service
+50-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:39:9-42:39
+51            android:name="com.example.partyplanner.pfService"
+51-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:40:13-38
+52            android:enabled="true"
+52-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:41:13-35
+53            android:exported="true" />
+53-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:42:13-36
+54        <service
+54-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:44:9-47:39
+55            android:name="com.example.partyplanner.NotificationService"
+55-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:45:13-48
+56            android:enabled="true"
+56-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:46:13-35
+57            android:exported="true" />
+57-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:47:13-36
+58
+59        <receiver
+59-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:49:9-56:20
+60            android:name="com.example.partyplanner.AirplaneReceiver"
+60-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:50:13-45
+61            android:enabled="true"
+61-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:51:13-35
+62            android:exported="true" >
+62-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:52:13-36
+63            <intent-filter>
+63-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:53:13-55:29
+64                <action android:name="android.intent.action.AIRPLANE_MODE" />
+64-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:54:17-78
+64-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:54:25-75
+65            </intent-filter>
+66        </receiver>
+67
+68        <activity
+68-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:58:9-66:20
+69            android:name="com.example.partyplanner.MainActivity"
+69-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:59:13-41
+70            android:exported="true" >
+70-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:60:13-36
+71            <intent-filter>
+71-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:61:13-65:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:62:17-69
+72-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:62:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:64:17-77
+74-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:64:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:67:9-69:40
+78            android:name="com.example.partyplanner.Planner"
+78-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:68:13-36
+79            android:exported="false" />
+79-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:69:13-37
+80        <activity
+80-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:70:9-72:40
+81            android:name="com.example.partyplanner.Budget"
+81-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:71:13-35
+82            android:exported="false" />
+82-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:72:13-37
+83        <activity
+83-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:73:9-75:40
+84            android:name="com.example.partyplanner.Checklist"
+84-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:74:13-38
+85            android:exported="false" />
+85-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:75:13-37
+86        <activity
+86-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:76:9-78:40
+87            android:name="com.example.partyplanner.Partylist"
+87-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:77:13-38
+88            android:exported="false" />
+88-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:78:13-37
+89        <activity
+89-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:79:9-81:40
+90            android:name="com.example.partyplanner.DeleteWindow"
+90-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:80:13-41
+91            android:exported="false" />
+91-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:81:13-37
+92        <activity
+92-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:82:9-84:40
+93            android:name="com.example.partyplanner.ScheduleCheck"
+93-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:83:13-42
+94            android:exported="false" />
+94-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:84:13-37
+95        <activity
+95-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:85:9-87:40
+96            android:name="com.example.partyplanner.PartyFood"
+96-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:86:13-38
+97            android:exported="false" />
+97-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:87:13-37
+98        <activity android:name="com.example.partyplanner.SingleItem" />
+98-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:88:9-48
+98-->C:\Users\yujun\AndroidStudioProjects\0211-0845PartyPlanner\PartyPlanner\app\src\main\AndroidManifest.xml:88:19-45
+99
+100        <provider
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+102            android:authorities="com.example.partyplanner.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yujun\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yujun\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yujun\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yujun\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+110        </provider>
+111    </application>
+112
+113</manifest>
